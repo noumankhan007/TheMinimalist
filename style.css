@@ -96,6 +96,9 @@
     color: white;
     background-color: brown;
 }
+#catalogbtn:hover{
+    background-color: red;
+}
 #readourstory{
     width: 150px;
     padding: 10px;
