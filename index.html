@@ -9,22 +9,25 @@
 </head>
 
 <body>
-    <header class="header">
-        All rights reserved | &copy; THE MINIMALIST 
+    <header class="header" id="header">
+        All rights reserved | &copy; THE MINIMALIST
     </header>
-    <nav class="navbar" id="navbar">
-        <!-- <img src="" alt=""> -->
-        <span>The Minimalist</span>
-        <a href="Home">Home</a>
-        <a href="Home">Details</a>
-        <a href="Home">Campus</a>
-        <input type="text" placeholder="Search">
 
-        <!-- <img src="" alt="">
-        <img src="" alt=""> -->
+    <nav class="navbar" id="navbar">
+
+        <div class="brand">
+            The Minimalist
+        </div>
+
+        <input type="text" placeholder="Search">
+        <div class="navlinks">
+            <a href="#navbar">Home</a>
+            <a href="#productssection">Product</a>
+            <a href="Home">Campus</a>
+        </div>
 
     </nav>
-    <div class="newseason">
+    <div class="newseason" id="newseason">
         <span id="newseasonspan">NEW SEASON BATCH NO. 04 NOW AVAILABLE </span>
     </div>
 
@@ -49,83 +52,100 @@
     </div>
 
 
-<!-- Bar above products -->
+    <!-- Bar above products -->
 
     <div class="uppertopbar">
         <div class="origin">
-            <h5 id="origintext">ORIGIN
-            </h5>
+            <h4 id="origintext">ORIGIN
+            </h4>
 
             <h2 id="iga">
                 Igo & Mina,JP
             </h2>
-            <h6 id="wood">
+            <h4 id="wood">
                 Wood-fired kilns & slow clay
-            </h6>
+            </h4>
         </div>
 
 
         <div class="materiality">
-            <h5 id="meterialitytext">MATERIALITY
-            </h5>
+            <h4 id="meterialitytext">MATERIALITY
+            </h4>
 
             <h2 id="pure">
                 Pure Organic
             </h2>
-            <h6 id="belgian">
+            <h4 id="belgian">
                 Belgian flex, raw brass, sand
-            </h6>
+            </h4>
         </div>
 
 
         <div class="batchscale">
-            <h5 id="batchscaletext">BATCH SCALE
-            </h5>
+            <h4 id="batchscaletext">BATCH SCALE
+            </h4>
 
             <h2 id="numbered">
                 120 Pieces
             </h2>
-            <h6 id="numberedstudioreleases">
+            <h4 id="numberedstudioreleases">
                 Numbered studio releases
-            </h6>
+            </h4>
         </div>
 
 
         <div class="impact">
-            <h5 cid="impacttext">IMPACT
-            </h5>
+            <h4 cid="impacttext">IMPACT
+            </h4>
 
             <h2 id="numbered">
                 100% Plastic Free
             </h2>
-            <h6 id="raw">
+            <h4 id="raw">
                 Compostable unbleached packaging
-            </h6>
+            </h4>
         </div>
     </div>
 
-    <section class="productssection">
+    <section class="productssection" id="productssection">
         <div class="products">
             <!-- first product -->
             <div class="innerproduct" id="firstproduct">
                 <img src="images/product1.jpg" alt="">
+                <h4 id="toptitle">CERAMICS</h4>
+                <h2 id="title">Terra Hand-Thrown Pitcher</h2>
+                <h4 id="bottomtitle">Matte stoneware with raw rim</h4>
+                <h4 id="price">$68.00</h4>
+
             </div>
 
             <!-- second product -->
             <div class="innerproduct" id="secondproduct">
                 <img src="images/product2.jpg" alt="">
+                <h4 id="toptitle">TEXTILES</h4>
+                <h2 id="title">Woven Belgian Linen Throw</h2>
+                <h4 id="bottomtitle">Oatmeal melange, fringed edge</h4>
+                <h4 id="price">$120.00</h4>
             </div>
-            
+
             <!-- third product -->
-             <div class="innerproduct" id="thirdproduct">
+            <div class="innerproduct" id="thirdproduct">
                 <img src="images/product3.jpg" alt="">
-             </div>
+                <h4 id="toptitle">GLASSWARE</h4>
+                <h2 id="title">Smoked Glass Carafe</h2>
+                <h4 id="bottomtitle">Borosilicate glass, turned oak stopper</h4>
+                <h4 id="price">$74.00</h4>
+            </div>
 
             <!-- fourth product -->
-             <div class="innerproduct" id="fourthproduct">
+            <div class="innerproduct" id="fourthproduct">
                 <img src="images/product4.jpg" alt="">
-             </div>
-        
+                <h4 id="toptitle">OBJECTS</h4>
+                <h2 id="title">Cast Bronze Candle Holder</h2>
+                <h4 id="bottomtitle">Solid heavy brass, hand-patinated</h4>
+                <h4 id="price">$48.00</h4>
+            </div>
+
         </div>
     </section>
 </body>

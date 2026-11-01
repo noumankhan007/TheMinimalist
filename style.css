@@ -1,15 +1,13 @@
     @font-face {
-        font-family: Unigeo;
-        src: url(fonts/Unigeo64-Semibold-trial.ttf);
+        font-family: Tropical;
+        src: url(fonts/TT-Trailers-Trial-Black.ttf);
     }
-    @font-face {
-        font-family: Coolvetica;
-        src: url(url(fonts/Coolvetica Rg.otf));
+    html{
+        scroll-behavior: smooth;
     }
 *{
     box-sizing: border-box;
-    /* font-family: Unigeo; */
-    font-family: Coolvetica;
+    font-family: Tropical;
 
 }
 .header{
@@ -25,8 +23,13 @@
 }
 
 .navbar{
-    height: 50px;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    min-height: 50px;
+    padding: 6px 0;
+    row-gap: 6px;
     width: 100%;
+    max-width: 100%;
     background-color: blue;
     display: flex;
     justify-content: space-between;
@@ -34,19 +37,31 @@
     position: sticky;
     top: 40px;
 }
-.navbar a{
+.navlinks{
+    display: flex;
+    gap: 30px;
+    margin-right: 20px;
+}
+.navlinks a{
+    display: flex;
+    max-width: 100%;
     color: white;
     text-decoration: none;
+    gap: 30px;
 }
-.navbar span{
-    margin: 0 0 0 20px;
+.brand{
+    margin-left: 20px;
 }
 
 .navbar input{
-    margin: 0 20px 0 0;
+    border-radius: 5px;
+    width: 100%;
+    min-width: 0px;
+    max-width: 100px;
+    padding-right: 30px;
+    /* margin-right: 10px; */
 }
 .newseason{
-
     display: flex;
     align-items: center;
     justify-content: center;
@@ -164,7 +179,7 @@
 /* First Product */
 #firstproduct{
     width: 300px;
-    height: 450px;
+    height: 420px;
     overflow: hidden;
     box-shadow: 1px 1px 0.5px rgba(0, 0, 0, 0.279);
     border-radius: 5px;
@@ -172,49 +187,56 @@
 }
 .firstproduct img{
     width: 100%;
-    height: 350px;
+    height: 420px;
     object-fit: cover;
+}
+#toptitle, #title, #bottomtitle{
+    margin: 5px;
+}
+#price{
+    margin-top: 15px;
+    margin-left: 5px;
 }
 
 /* Second Product */
 #secondproduct{
     width: 300px;
-    height: 450px;
+    height: 420px;
     overflow: hidden;
     box-shadow: 1px 1px 0.5px rgba(0, 0, 0, 0.279);
     border-radius: 5px;
 }
 .secondproduct img{
     width: 100%;
-    height: 350px;
+    height: 1px;
     object-fit: cover;
 }
 
 /* Third Product */
 #thirdproduct{
     width: 300px;
-    height: 450px;
+    height: 420px;
     overflow: hidden;
     box-shadow: 1px 1px 0.5px rgba(0, 0, 0, 0.279);
     border-radius: 5px;
 }
 .thirdproduct img{
     width: 100%;
-    height: 350px;
+    height: 420px;
     object-fit: cover;
 }
 
 /* Fourth Product */
 #fourthproduct{
     width: 300px;
-    height: 450px;
+    height: 420px;
     overflow: hidden;
     box-shadow: 1px 1px 0.5px rgba(0, 0, 0, 0.279);
     border-radius: 5px;
 }
 .fourthproduct img{
     width: 100%;
-    height: 350px;
+    height: 420px;
     object-fit: cover;
     
 }
